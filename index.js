@@ -8,6 +8,13 @@ const client = new Discord.Client();
 // When the app is ready it will write out Ready using this
 client.once('ready', () => {
     console.log('Ready!');
+
+    client.user.setPresence({
+        activity: {
+            name: 'Ro watch Lynn',
+            type: 3,
+        },
+    });
 });
 
 client.on('message', message => {

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/had-jam/Lo/issues"
   },
-  "homepage": "https://github.com/had-jam/Lo#readme"
+  "homepage": "https://github.com/had-jam/Lo#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
